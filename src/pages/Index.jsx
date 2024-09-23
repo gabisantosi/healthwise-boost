@@ -54,31 +54,35 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossa Missão na Kure Saúde</h2>
           <div className="text-lg text-gray-700 space-y-6 max-w-3xl mx-auto">
             <p>
-              A <strong>Kure Saúde</strong> é uma empresa especializada em <em>consultoria e gestão de saúde</em>, 
-              dedicada a transformar e aprimorar os serviços de saúde no Brasil. Nossa missão é:
-            </p>
-            <blockquote className="border-l-4 border-blue-500 pl-4 italic">
-              "Elevar o padrão dos cuidados de saúde através de consultoria especializada, gestão eficiente 
-              e inovação contínua, visando melhorar a qualidade de vida das comunidades e fortalecer o 
-              sistema de saúde brasileiro."
-            </blockquote>
-            <p>
-              Trabalhamos diretamente com instituições de saúde, governos e organizações para implementar 
-              soluções práticas e eficazes que atendam às necessidades específicas de cada região e população. 
-              Nosso foco está em:
+              Na <strong>Kure Saúde</strong>, nossa missão é transformar e aprimorar os serviços de saúde no Brasil 
+              através de consultoria especializada e gestão eficiente. Trabalhamos incansavelmente para:
             </p>
             <ul className="list-disc list-inside space-y-2">
-              <li>Otimizar processos e reduzir custos operacionais</li>
-              <li>Melhorar a qualidade e eficiência dos serviços de saúde</li>
-              <li>Desenvolver estratégias personalizadas para desafios de saúde pública</li>
-              <li>Capacitar profissionais de saúde com as melhores práticas do setor</li>
-              <li>Implementar tecnologias inovadoras para aprimorar o atendimento ao paciente</li>
+              <li>Otimizar processos e reduzir custos operacionais em instituições de saúde</li>
+              <li>Implementar soluções inovadoras que elevam a qualidade do atendimento ao paciente</li>
+              <li>Desenvolver estratégias personalizadas para enfrentar desafios complexos de saúde pública</li>
+              <li>Capacitar profissionais de saúde com as melhores práticas e conhecimentos atualizados</li>
             </ul>
             <p>
-              Com uma equipe de especialistas altamente qualificados e uma abordagem baseada em evidências, 
-              a Kure Saúde está comprometida em fazer a diferença real na saúde e bem-estar das pessoas em 
-              todo o Brasil.
+              Nosso compromisso é fazer a diferença real na saúde e bem-estar das comunidades em todo o Brasil, 
+              promovendo um sistema de saúde mais eficiente, acessível e centrado no paciente.
             </p>
+          </div>
+        </section>
+
+        <section className="mb-20 bg-blue-100 p-8 rounded-lg">
+          <h3 className="text-2xl font-bold text-center text-blue-800 mb-6">Nosso Foco</h3>
+          <div className="text-lg text-blue-700 space-y-4 max-w-3xl mx-auto">
+            <p>
+              A Kure Saúde concentra seus esforços em áreas críticas para o aprimoramento do sistema de saúde:
+            </p>
+            <ul className="list-none space-y-2">
+              <li>🔍 Análise detalhada de processos e fluxos de trabalho em instituições de saúde</li>
+              <li>💡 Desenvolvimento de soluções personalizadas para desafios específicos</li>
+              <li>🚀 Implementação de tecnologias inovadoras para melhorar a eficiência operacional</li>
+              <li>👥 Treinamento e capacitação de equipes de saúde</li>
+              <li>📊 Monitoramento contínuo e avaliação de resultados para garantir melhorias sustentáveis</li>
+            </ul>
           </div>
         </section>
 
