@@ -63,10 +63,10 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="text-center bg-accent text-white rounded-lg p-10">
+        <section className="text-center bg-primary text-white rounded-lg p-10">
           <h3 className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Saúde?</h3>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Entre em contato conosco hoje para uma avaliação gratuita e descubra como podemos ajudar sua instituição a alcançar novos patamares de excelência.</p>
-          <Button size="lg" variant="secondary" className="text-accent bg-white hover:bg-gray-100 text-lg px-8">
+          <Button size="lg" variant="secondary" className="text-primary bg-white hover:bg-gray-100 text-lg px-8">
             Fale Conosco
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>

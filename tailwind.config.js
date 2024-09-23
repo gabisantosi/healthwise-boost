@@ -24,7 +24,7 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#00C281", // Verde Kry
+          DEFAULT: "#007C8C", // Verde azulado Kry
           foreground: "#FFFFFF",
         },
         secondary: {
@@ -40,7 +40,7 @@ module.exports = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "#007C8C", // Azul esverdeado Kry
+          DEFAULT: "#00C281", // Verde Kry (agora como cor de destaque)
           foreground: "#FFFFFF",
         },
         popover: {
