@@ -4,7 +4,7 @@ const Header = () => (
   <header className="bg-white shadow-md sticky top-0 z-10">
     <div className="container mx-auto px-4 py-4 flex justify-between items-center">
       <img 
-        src="/img/logo-kure-azul.png"
+        src="/img/kure_logo.png"
         alt="Kure Consultoria Logo" 
         className="h-12"
       />
