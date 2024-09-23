@@ -6,7 +6,7 @@ import { CheckCircle2, Users, TrendingUp, BookOpen } from "lucide-react";
 const Index = () => {
   const handleImageError = (e) => {
     console.error(`Failed to load image: ${e.target.src}`);
-    e.target.src = '/placeholder.svg';
+    e.target.src = '/img/placeholder.png';
     e.target.alt = 'Imagem não disponível';
   };
 
