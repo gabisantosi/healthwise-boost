@@ -5,10 +5,13 @@ import { CheckCircle2, Users, TrendingUp, BookOpen } from "lucide-react";
 
 const Index = () => {
   const handleImageError = (e) => {
-    e.target.src = 'https://via.placeholder.com/150'; // Fallback image
+    console.error(`Failed to load image: ${e.target.src}`);
+    e.target.src = '/placeholder.svg';
+    e.target.alt = 'Imagem não disponível';
   };
 
-  const logoUrl = "https://raw.githubusercontent.com/gabisantosi/kure/master/img/logo-kure-azul.png";
+  const logoUrl = "/img/logo-kure-azul.png";
+  const iconUrl = "/img/icon-kure-azul.png";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -46,15 +49,15 @@ const Index = () => {
           <h3 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços Especializados</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional.", icon: logoUrl },
-              { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade.", icon: logoUrl },
-              { title: "Consultoria Financeira", description: "Estratégias para melhorar o desempenho financeiro.", icon: logoUrl }
+              { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional." },
+              { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade." },
+              { title: "Consultoria Financeira", description: "Estratégias para melhorar o desempenho financeiro." }
             ].map((service, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="flex justify-center">
                     <img 
-                      src={service.icon} 
+                      src={iconUrl} 
                       alt={`Ícone de ${service.title}`} 
                       className="h-20 w-20 object-contain mb-4"
                       onError={handleImageError}
