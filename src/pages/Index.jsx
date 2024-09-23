@@ -46,7 +46,11 @@ const Index = () => {
             </div>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0">
-            <img src="/img/placeholder-image.jpg" alt="Imagem de placeholder" className="rounded-lg shadow-lg w-full h-auto mx-auto object-cover" />
+            <img 
+              src="/img/placeholder-image.jpg" 
+              alt="Imagem representativa dos serviços de saúde" 
+              className="rounded-lg shadow-lg w-full h-auto mx-auto object-cover" 
+            />
           </div>
         </section>
 
