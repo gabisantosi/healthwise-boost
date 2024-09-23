@@ -34,56 +34,60 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-secondary to-white">
+    <div className="min-h-screen">
       <Header />
 
-      <main className="container mx-auto px-4 py-12">
-        <section className="text-center mb-20 flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-1/2 md:pr-8">
-            <h1 className="text-5xl font-bold text-gray-800 mb-6">Consultoria Especializada em Saúde Digital</h1>
-            <p className="text-xl text-gray-600 mb-10">Oferecemos soluções de consultoria personalizadas em saúde digital, tecnologia e inovação para otimizar processos, melhorar a qualidade dos serviços e impulsionar a transformação digital no setor de saúde.</p>
+      <main>
+        <section className="relative h-screen flex items-center justify-center">
+          <div 
+            className="absolute inset-0 bg-cover bg-center z-0" 
+            style={{backgroundImage: `url('/img/healthcare-services.jpg')`}}
+          ></div>
+          <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
+          <div className="container mx-auto px-4 py-12 relative z-20 text-white text-center">
+            <h1 className="text-5xl font-bold mb-6">Consultoria Especializada em Saúde Digital</h1>
+            <p className="text-xl mb-10 max-w-3xl mx-auto">Oferecemos soluções de consultoria personalizadas em saúde digital, tecnologia e inovação para otimizar processos, melhorar a qualidade dos serviços e impulsionar a transformação digital no setor de saúde.</p>
             <div className="flex justify-center space-x-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
                 Agende uma Consultoria
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 text-primary border-primary hover:bg-primary/10">Nossos Serviços</Button>
+              <Button size="lg" variant="outline" className="text-lg px-8 text-white border-white hover:bg-white/20">Nossos Serviços</Button>
             </div>
           </div>
-          <div className="md:w-1/2 mt-8 md:mt-0">
-            <img 
-              src="/img/healthcare-services.jpg" 
-              alt="Consultoria em serviços de saúde digital" 
-              className="rounded-lg shadow-lg w-full h-auto mx-auto object-cover" 
-            />
+        </section>
+
+        <section className="bg-white py-20">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços de Consultoria</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {services.map((service, index) => (
+                <ServiceCard key={index} {...service} />
+              ))}
+            </div>
           </div>
         </section>
 
-        <section className="mb-20">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços de Consultoria</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {services.map((service, index) => (
-              <ServiceCard key={index} {...service} />
-            ))}
+        <section className="bg-gray-100 py-20">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Parceiros</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+              {partners.map((partner, index) => (
+                <PartnerLogo key={index} {...partner} />
+              ))}
+            </div>
           </div>
         </section>
 
-        <section className="mb-20">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Parceiros</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-            {partners.map((partner, index) => (
-              <PartnerLogo key={index} {...partner} />
-            ))}
+        <section className="bg-primary text-white py-20">
+          <div className="container mx-auto px-4 text-center">
+            <h3 className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Saúde Digital?</h3>
+            <p className="text-xl mb-8 max-w-2xl mx-auto">Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em saúde digital e tecnologia.</p>
+            <Button size="lg" variant="secondary" className="text-primary bg-white hover:bg-gray-100 text-lg px-8">
+              Solicite uma Proposta
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
           </div>
-        </section>
-
-        <section className="text-center bg-primary text-white rounded-lg p-10">
-          <h3 className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Saúde Digital?</h3>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em saúde digital e tecnologia.</p>
-          <Button size="lg" variant="secondary" className="text-primary bg-white hover:bg-gray-100 text-lg px-8">
-            Solicite uma Proposta
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
         </section>
       </main>
 
