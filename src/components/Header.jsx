@@ -1,19 +1,19 @@
 import React from 'react';
-import { Home, Briefcase, Info, BookOpen, Mail } from 'lucide-react';
+import { Heart, Stethoscope, HelpCircle, BookOpen, Mail } from 'lucide-react';
 
 const Header = () => (
   <header className="bg-white shadow-md sticky top-0 z-10">
     <div className="container mx-auto px-4 py-4 flex justify-between items-center">
       <div className="flex items-center">
-        <Home className="h-8 w-8 text-blue-600 mr-2" />
-        <span className="text-xl font-bold text-blue-600">Kure Consultoria</span>
+        <Heart className="h-8 w-8 text-blue-600 mr-2" />
+        <span className="text-xl font-bold text-blue-600">Kure Saúde</span>
       </div>
       <nav>
         <ul className="flex space-x-6">
           {[
-            { name: 'Início', icon: Home },
-            { name: 'Serviços', icon: Briefcase },
-            { name: 'Sobre', icon: Info },
+            { name: 'Início', icon: Heart },
+            { name: 'Serviços', icon: Stethoscope },
+            { name: 'Sobre', icon: HelpCircle },
             { name: 'Blog', icon: BookOpen },
             { name: 'Contato', icon: Mail }
           ].map((item) => (

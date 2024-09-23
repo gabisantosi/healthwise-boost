@@ -1,14 +1,14 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ArrowRight } from "lucide-react";
+import { CheckCircle2, ArrowRight, Heart, Stethoscope, Clipboard } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 
 const Index = () => {
   const services = [
-    { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional." },
-    { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade." },
-    { title: "Consultoria Financeira", description: "Estratégias para melhorar o desempenho financeiro." }
+    { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional.", icon: Clipboard },
+    { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade.", icon: CheckCircle2 },
+    { title: "Consultoria em Saúde", description: "Estratégias para melhorar o desempenho e qualidade do atendimento.", icon: Stethoscope }
   ];
 
   return (
@@ -38,7 +38,7 @@ const Index = () => {
         </section>
 
         <section className="bg-blue-50 rounded-lg p-10 mb-20">
-          <h3 className="text-3xl font-bold text-center text-gray-800 mb-10">Por que escolher a Kure Consultoria?</h3>
+          <h3 className="text-3xl font-bold text-center text-gray-800 mb-10">Por que escolher a Kure Saúde?</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               "Equipe de especialistas com vasta experiência no setor de saúde",
@@ -66,7 +66,7 @@ const Index = () => {
 
       <footer className="bg-gray-800 text-white py-12">
         <div className="container mx-auto px-4">
-          <p className="text-center">&copy; 2024 Kure Consultoria. Todos os direitos reservados.</p>
+          <p className="text-center">&copy; 2024 Kure Saúde. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
