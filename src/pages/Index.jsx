@@ -22,6 +22,10 @@ const Index = () => {
     { 
       title: "Metodologias Ágeis em Saúde", 
       description: "Aplicação de princípios ágeis para melhorar a gestão e entrega de projetos no setor de saúde."
+    },
+    { 
+      title: "Integração com Google Workspace", 
+      description: "Otimização dos processos de saúde utilizando as ferramentas do Google Workspace (antigo G Suite) para colaboração e produtividade."
     }
   ];
 
@@ -60,7 +64,7 @@ const Index = () => {
         <section className="bg-white py-20">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços de Consultoria</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (
                 <ServiceCard key={index} {...service} />
               ))}

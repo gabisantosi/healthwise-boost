@@ -1,13 +1,14 @@
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Laptop, Stethoscope, GitBranch, BarChart, Zap } from 'lucide-react';
+import { Laptop, Stethoscope, GitBranch, BarChart, Zap, Mail } from 'lucide-react';
 
 const iconMap = {
   "Saúde Digital": Laptop,
   "Tecnologia em Saúde": BarChart,
   "Desenvolvimento de Programas de Saúde": Stethoscope,
   "Metodologias Ágeis em Saúde": GitBranch,
-  "Transformação Digital em Saúde": Zap
+  "Transformação Digital em Saúde": Zap,
+  "Integração com Google Workspace": Mail
 };
 
 const ServiceCard = ({ title, description }) => {
