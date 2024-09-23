@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, ArrowRight } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 
@@ -20,7 +20,10 @@ const Index = () => {
           <h2 className="text-5xl font-bold text-gray-800 mb-6">Transforme sua Gestão em Saúde</h2>
           <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">Soluções personalizadas e inovadoras para otimizar processos, reduzir custos e melhorar a qualidade do atendimento em sua instituição de saúde.</p>
           <div className="flex justify-center space-x-4">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">Agende uma Consulta</Button>
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
+              Agende uma Consulta
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
             <Button size="lg" variant="outline" className="text-lg px-8">Saiba Mais</Button>
           </div>
         </section>
@@ -54,7 +57,10 @@ const Index = () => {
         <section className="text-center bg-blue-600 text-white rounded-lg p-10">
           <h3 className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Saúde?</h3>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Entre em contato conosco hoje para uma avaliação gratuita e descubra como podemos ajudar sua instituição a alcançar novos patamares de excelência.</p>
-          <Button size="lg" variant="secondary" className="text-blue-600 bg-white hover:bg-gray-100 text-lg px-8">Fale Conosco</Button>
+          <Button size="lg" variant="secondary" className="text-blue-600 bg-white hover:bg-gray-100 text-lg px-8">
+            Fale Conosco
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Button>
         </section>
       </main>
 

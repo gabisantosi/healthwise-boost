@@ -1,18 +1,27 @@
 import React from 'react';
+import { Home, Briefcase, Info, BookOpen, Mail } from 'lucide-react';
 
 const Header = () => (
   <header className="bg-white shadow-md sticky top-0 z-10">
     <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-      <img 
-        src="/img/kure_logo.png"
-        alt="Kure Consultoria Logo" 
-        className="h-12"
-      />
+      <div className="flex items-center">
+        <Home className="h-8 w-8 text-blue-600 mr-2" />
+        <span className="text-xl font-bold text-blue-600">Kure Consultoria</span>
+      </div>
       <nav>
         <ul className="flex space-x-6">
-          {['Início', 'Serviços', 'Sobre', 'Blog', 'Contato'].map((item) => (
-            <li key={item}>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">{item}</a>
+          {[
+            { name: 'Início', icon: Home },
+            { name: 'Serviços', icon: Briefcase },
+            { name: 'Sobre', icon: Info },
+            { name: 'Blog', icon: BookOpen },
+            { name: 'Contato', icon: Mail }
+          ].map((item) => (
+            <li key={item.name}>
+              <a href="#" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+                <item.icon className="h-4 w-4 mr-1" />
+                {item.name}
+              </a>
             </li>
           ))}
         </ul>
