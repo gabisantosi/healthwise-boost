@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ArrowRight, Stethoscope, Clipboard, Activity, HeartPulse } from "lucide-react";
+import { CheckCircle2, ArrowRight, Stethoscope, Clipboard, Activity, HeartPulse, Users, BookOpen, PenTool } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 
@@ -17,7 +17,7 @@ const Index = () => {
 
       <main className="container mx-auto px-4 py-12">
         <section className="text-center mb-20">
-          <h2 className="text-5xl font-bold text-gray-800 mb-6">Transforme sua Gestão em Saúde</h2>
+          <h1 className="text-5xl font-bold text-gray-800 mb-6">Transforme sua Gestão em Saúde com a Kure Saúde</h1>
           <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">Soluções personalizadas e inovadoras para otimizar processos, reduzir custos e melhorar a qualidade do atendimento em sua instituição de saúde.</p>
           <div className="flex justify-center space-x-4">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
@@ -29,7 +29,7 @@ const Index = () => {
         </section>
 
         <section className="mb-20">
-          <h3 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços Especializados</h3>
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços Especializados</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
@@ -38,19 +38,56 @@ const Index = () => {
         </section>
 
         <section className="bg-blue-50 rounded-lg p-10 mb-20">
-          <h3 className="text-3xl font-bold text-center text-gray-800 mb-10">Por que escolher a Kure Saúde?</h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            {[
-              "Equipe de especialistas com vasta experiência no setor de saúde",
-              "Abordagem personalizada para cada cliente",
-              "Resultados comprovados em melhoria de eficiência e qualidade",
-              "Suporte contínuo durante e após a implementação"
-            ].map((item, index) => (
-              <div key={index} className="flex items-start">
-                <CheckCircle2 className="text-green-500 mr-4 mt-1 flex-shrink-0" />
-                <p className="text-lg">{item}</p>
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossa Missão na Kure Saúde</h2>
+          <div className="text-lg text-gray-700 space-y-6">
+            <p>
+              Na <strong>Kure Saúde</strong>, nosso propósito é <em>empoderar vidas através de cuidados de saúde de qualidade</em>. 
+              Somos especialistas em <strong>saúde pública</strong>, oferecendo consultoria especializada em áreas críticas como 
+              <strong> saúde materna</strong>, <strong>pediatria</strong> e <strong>geriatria</strong>, preenchendo lacunas importantes no sistema de saúde brasileiro.
+            </p>
+            <div className="flex items-center justify-center space-x-8 my-8">
+              <div className="flex flex-col items-center">
+                <Users className="h-12 w-12 text-blue-600 mb-2" />
+                <span className="font-semibold">Saúde Pública</span>
               </div>
-            ))}
+              <div className="flex flex-col items-center">
+                <HeartPulse className="h-12 w-12 text-blue-600 mb-2" />
+                <span className="font-semibold">Saúde Materna</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <Activity className="h-12 w-12 text-blue-600 mb-2" />
+                <span className="font-semibold">Pediatria</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <Stethoscope className="h-12 w-12 text-blue-600 mb-2" />
+                <span className="font-semibold">Geriatria</span>
+              </div>
+            </div>
+            <p>
+              Nosso compromisso vai além da consultoria. Através de <strong>gestão de projetos inovadores</strong>, 
+              <strong> pesquisa avançada em saúde</strong>, <strong>palestras informativas</strong>, <strong>eventos educacionais</strong> e 
+              <strong> treinamentos especializados</strong>, estamos empenhados em promover conhecimento e impulsionar mudanças positivas no setor de saúde.
+            </p>
+            <div className="flex items-center justify-center space-x-8 my-8">
+              <div className="flex flex-col items-center">
+                <Clipboard className="h-12 w-12 text-blue-600 mb-2" />
+                <span className="font-semibold">Gestão de Projetos</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <BookOpen className="h-12 w-12 text-blue-600 mb-2" />
+                <span className="font-semibold">Pesquisa em Saúde</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <PenTool className="h-12 w-12 text-blue-600 mb-2" />
+                <span className="font-semibold">Treinamentos</span>
+              </div>
+            </div>
+            <p>
+              Nossa missão é <strong>transformar a saúde das comunidades</strong>, capacitando indivíduos e instituições 
+              a tomar decisões informadas para uma <em>vida mais saudável e feliz</em>. Na Kure Saúde, acreditamos que 
+              o acesso à informação de qualidade e serviços de saúde eficientes são fundamentais para construir um 
+              futuro mais saudável para todos.
+            </p>
           </div>
         </section>
 
