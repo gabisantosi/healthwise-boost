@@ -1,17 +1,37 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Users, TrendingUp, BookOpen } from "lucide-react";
 
 const Index = () => {
-  const handleImageError = (e) => {
+  const [logoLoaded, setLogoLoaded] = useState(false);
+  const [iconLoaded, setIconLoaded] = useState(false);
+
+  useEffect(() => {
+    console.log("Component mounted");
+  }, []);
+
+  const handleImageError = (e, imageName) => {
     console.error(`Failed to load image: ${e.target.src}`);
-    e.target.src = '/img/placeholder.png';
+    e.target.src = '/placeholder.svg';
     e.target.alt = 'Imagem não disponível';
+    console.log(`Fallback image set for ${imageName}`);
   };
 
-  const logoUrl = "/img/logo-kure-azul.png";
-  const iconUrl = "/img/icon-kure-azul.png";
+  const handleImageLoad = (imageName) => {
+    console.log(`Image loaded successfully: ${imageName}`);
+    if (imageName === 'logo') {
+      setLogoLoaded(true);
+    } else if (imageName === 'icon') {
+      setIconLoaded(true);
+    }
+  };
+
+  const logoUrl = "/logo-kure-azul.png";
+  const iconUrl = "/icon-kure-azul.png";
+
+  console.log("Rendering component with logo URL:", logoUrl);
+  console.log("Rendering component with icon URL:", iconUrl);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -21,8 +41,10 @@ const Index = () => {
             src={logoUrl}
             alt="Kure Consultoria Logo" 
             className="h-12"
-            onError={handleImageError}
+            onError={(e) => handleImageError(e, 'logo')}
+            onLoad={() => handleImageLoad('logo')}
           />
+          {!logoLoaded && <p>Carregando logo...</p>}
           <nav>
             <ul className="flex space-x-6">
               <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">Início</a></li>
@@ -60,9 +82,11 @@ const Index = () => {
                       src={iconUrl} 
                       alt={`Ícone de ${service.title}`} 
                       className="h-20 w-20 object-contain mb-4"
-                      onError={handleImageError}
+                      onError={(e) => handleImageError(e, 'icon')}
+                      onLoad={() => handleImageLoad('icon')}
                     />
                   </div>
+                  {!iconLoaded && <p>Carregando ícone...</p>}
                   <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
                   <CardDescription>{service.description}</CardDescription>
                 </CardHeader>
