@@ -1,14 +1,14 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { CheckCircle2, BarChart2, Users, TrendingUp, BookOpen } from "lucide-react";
+import { CheckCircle2, Users, TrendingUp, BookOpen } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <header className="bg-white shadow-md sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-blue-600">Kure Consultoria</h1>
+          <img src="https://raw.githubusercontent.com/gabisantosi/kure/master/img/logo.png" alt="Kure Consultoria Logo" className="h-12" />
           <nav>
             <ul className="flex space-x-6">
               <li><a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">Início</a></li>
@@ -35,13 +35,15 @@ const Index = () => {
           <h3 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços Especializados</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional.", icon: <BarChart2 className="h-10 w-10 text-blue-500 mb-4" /> },
-              { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade.", icon: <CheckCircle2 className="h-10 w-10 text-blue-500 mb-4" /> },
-              { title: "Consultoria Financeira", description: "Estratégias para melhorar o desempenho financeiro.", icon: <TrendingUp className="h-10 w-10 text-blue-500 mb-4" /> }
+              { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional.", icon: "https://raw.githubusercontent.com/gabisantosi/kure/master/img/gestao.png" },
+              { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade.", icon: "https://raw.githubusercontent.com/gabisantosi/kure/master/img/acreditacao.png" },
+              { title: "Consultoria Financeira", description: "Estratégias para melhorar o desempenho financeiro.", icon: "https://raw.githubusercontent.com/gabisantosi/kure/master/img/financeiro.png" }
             ].map((service, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <div className="flex justify-center">{service.icon}</div>
+                  <div className="flex justify-center">
+                    <img src={service.icon} alt={service.title} className="h-20 w-20 object-contain mb-4" />
+                  </div>
                   <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
                   <CardDescription>{service.description}</CardDescription>
                 </CardHeader>
