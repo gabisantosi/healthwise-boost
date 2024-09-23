@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Stethoscope, Clipboard, Activity, HeartPulse, Users } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 
@@ -8,28 +8,23 @@ const Index = () => {
   const services = [
     { 
       title: "Consultoria em Saúde Pública", 
-      description: "Oferecemos soluções estratégicas para melhorar a eficiência e qualidade dos serviços de saúde pública.",
-      icon: Users 
+      description: "Oferecemos soluções estratégicas para melhorar a eficiência e qualidade dos serviços de saúde pública."
     },
     { 
       title: "Gestão de Saúde Materna", 
-      description: "Desenvolvemos programas especializados para aprimorar o cuidado materno e infantil.",
-      icon: HeartPulse 
+      description: "Desenvolvemos programas especializados para aprimorar o cuidado materno e infantil."
     },
     { 
       title: "Otimização de Serviços Pediátricos", 
-      description: "Implementamos práticas inovadoras para elevar o padrão de atendimento pediátrico.",
-      icon: Activity 
+      description: "Implementamos práticas inovadoras para elevar o padrão de atendimento pediátrico."
     },
     { 
       title: "Aprimoramento de Cuidados Geriátricos", 
-      description: "Criamos estratégias para melhorar a qualidade de vida e o atendimento à população idosa.",
-      icon: Stethoscope 
+      description: "Criamos estratégias para melhorar a qualidade de vida e o atendimento à população idosa."
     },
     { 
       title: "Gestão de Projetos em Saúde", 
-      description: "Planejamos e executamos projetos inovadores para transformar a prestação de serviços de saúde.",
-      icon: Clipboard 
+      description: "Planejamos e executamos projetos inovadores para transformar a prestação de serviços de saúde."
     }
   ];
 
@@ -51,24 +46,7 @@ const Index = () => {
             </div>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0">
-            <img src="/img/photo-02.jpg" alt="Profissionais de saúde" className="rounded-lg shadow-lg w-full h-auto" />
-          </div>
-        </section>
-
-        <section className="mb-20 bg-blue-100 p-8 rounded-lg">
-          <h3 className="text-2xl font-bold text-center text-blue-800 mb-6">Nosso Foco</h3>
-          <div className="text-lg text-blue-700 space-y-4 max-w-3xl mx-auto">
-            <p>
-              A Kure Saúde concentra seus esforços em áreas críticas para o aprimoramento do sistema de saúde:
-            </p>
-            <ul className="list-none space-y-2">
-              <li>🔍 Otimização de processos e redução de custos operacionais em instituições de saúde</li>
-              <li>💡 Implementação de soluções inovadoras para elevar a qualidade do atendimento ao paciente</li>
-              <li>🚀 Desenvolvimento de estratégias personalizadas para enfrentar desafios complexos de saúde pública</li>
-              <li>👥 Capacitação de profissionais de saúde com as melhores práticas e conhecimentos atualizados</li>
-              <li>📊 Análise detalhada de fluxos de trabalho e implementação de tecnologias para melhorar a eficiência</li>
-              <li>📈 Monitoramento contínuo e avaliação de resultados para garantir melhorias sustentáveis</li>
-            </ul>
+            <img src="/img/photo-02.jpg" alt="Profissionais de saúde" className="rounded-lg shadow-lg w-full h-auto mx-auto object-cover" />
           </div>
         </section>
 
