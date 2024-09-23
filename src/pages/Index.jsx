@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
+import PartnerLogo from '../components/PartnerLogo';
 
 const Index = () => {
   const services = [
@@ -21,11 +22,15 @@ const Index = () => {
     { 
       title: "Metodologias Ágeis em Saúde", 
       description: "Aplicação de princípios ágeis para melhorar a gestão e entrega de projetos no setor de saúde."
-    },
-    { 
-      title: "Transformação Digital em Saúde", 
-      description: "Estratégias para a transformação digital de organizações de saúde, melhorando processos e experiência do paciente."
     }
+  ];
+
+  const partners = [
+    { name: "Hospital Sírio-Libanês", logoUrl: "/img/placeholder-image.jpg" },
+    { name: "Hospital Israelita Albert Einstein", logoUrl: "/img/placeholder-image.jpg" },
+    { name: "Hospital Alemão Oswaldo Cruz", logoUrl: "/img/placeholder-image.jpg" },
+    { name: "Hospital Moinhos de Vento", logoUrl: "/img/placeholder-image.jpg" },
+    { name: "Hospital Samaritano", logoUrl: "/img/placeholder-image.jpg" }
   ];
 
   return (
@@ -56,9 +61,18 @@ const Index = () => {
 
         <section className="mb-20">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços de Consultoria</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-20">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Parceiros</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            {partners.map((partner, index) => (
+              <PartnerLogo key={index} {...partner} />
             ))}
           </div>
         </section>
