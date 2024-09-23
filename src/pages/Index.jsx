@@ -45,8 +45,8 @@ const Index = () => {
           ></div>
           <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
           <div className="container mx-auto px-4 py-12 relative z-20 text-white text-center">
-            <h1 className="text-5xl font-bold mb-6">Consultoria Especializada em Saúde Digital</h1>
-            <p className="text-xl mb-10 max-w-3xl mx-auto">Oferecemos soluções de consultoria personalizadas em saúde digital, tecnologia e inovação para otimizar processos, melhorar a qualidade dos serviços e impulsionar a transformação digital no setor de saúde.</p>
+            <h1 className="text-5xl font-bold mb-6">Consultoria Especializada em Tecnologia em Saúde</h1>
+            <p className="text-xl mb-10 max-w-3xl mx-auto">Oferecemos soluções de consultoria personalizadas em tecnologia e inovação para o setor de saúde, otimizando processos, melhorando a qualidade dos serviços e impulsionando a transformação digital.</p>
             <div className="flex justify-center space-x-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
                 Agende uma Consultoria
@@ -81,8 +81,8 @@ const Index = () => {
 
         <section className="bg-primary text-white py-20">
           <div className="container mx-auto px-4 text-center">
-            <h3 className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Saúde Digital?</h3>
-            <p className="text-xl mb-8 max-w-2xl mx-auto">Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em saúde digital e tecnologia.</p>
+            <h3 className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Tecnologia em Saúde?</h3>
+            <p className="text-xl mb-8 max-w-2xl mx-auto">Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em tecnologia e inovação em saúde.</p>
             <Button size="lg" variant="secondary" className="text-primary bg-white hover:bg-gray-100 text-lg px-8">
               Solicite uma Proposta
               <ArrowRight className="ml-2 h-5 w-5" />
