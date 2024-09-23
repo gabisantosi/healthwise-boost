@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
