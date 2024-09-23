@@ -55,17 +55,9 @@ const Index = () => {
           <div className="text-lg text-gray-700 space-y-6 max-w-3xl mx-auto">
             <p>
               Na <strong>Kure Saúde</strong>, nossa missão é transformar e aprimorar os serviços de saúde no Brasil 
-              através de consultoria especializada e gestão eficiente. Trabalhamos incansavelmente para:
-            </p>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Otimizar processos e reduzir custos operacionais em instituições de saúde</li>
-              <li>Implementar soluções inovadoras que elevam a qualidade do atendimento ao paciente</li>
-              <li>Desenvolver estratégias personalizadas para enfrentar desafios complexos de saúde pública</li>
-              <li>Capacitar profissionais de saúde com as melhores práticas e conhecimentos atualizados</li>
-            </ul>
-            <p>
-              Nosso compromisso é fazer a diferença real na saúde e bem-estar das comunidades em todo o Brasil, 
-              promovendo um sistema de saúde mais eficiente, acessível e centrado no paciente.
+              através de consultoria especializada e gestão eficiente. Nosso compromisso é fazer a diferença real 
+              na saúde e bem-estar das comunidades em todo o Brasil, promovendo um sistema de saúde mais eficiente, 
+              acessível e centrado no paciente.
             </p>
           </div>
         </section>
@@ -77,11 +69,12 @@ const Index = () => {
               A Kure Saúde concentra seus esforços em áreas críticas para o aprimoramento do sistema de saúde:
             </p>
             <ul className="list-none space-y-2">
-              <li>🔍 Análise detalhada de processos e fluxos de trabalho em instituições de saúde</li>
-              <li>💡 Desenvolvimento de soluções personalizadas para desafios específicos</li>
-              <li>🚀 Implementação de tecnologias inovadoras para melhorar a eficiência operacional</li>
-              <li>👥 Treinamento e capacitação de equipes de saúde</li>
-              <li>📊 Monitoramento contínuo e avaliação de resultados para garantir melhorias sustentáveis</li>
+              <li>🔍 Otimização de processos e redução de custos operacionais em instituições de saúde</li>
+              <li>💡 Implementação de soluções inovadoras para elevar a qualidade do atendimento ao paciente</li>
+              <li>🚀 Desenvolvimento de estratégias personalizadas para enfrentar desafios complexos de saúde pública</li>
+              <li>👥 Capacitação de profissionais de saúde com as melhores práticas e conhecimentos atualizados</li>
+              <li>📊 Análise detalhada de fluxos de trabalho e implementação de tecnologias para melhorar a eficiência</li>
+              <li>📈 Monitoramento contínuo e avaliação de resultados para garantir melhorias sustentáveis</li>
             </ul>
           </div>
         </section>
