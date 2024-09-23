@@ -41,7 +41,7 @@ const Index = () => {
         <section className="relative h-screen flex items-center justify-center">
           <div 
             className="absolute inset-0 bg-cover bg-center z-0" 
-            style={{backgroundImage: `url('/img/healthcare-services.jpg')`}}
+            style={{backgroundImage: `url('/img/photo-02.jpg')`}}
           ></div>
           <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
           <div className="container mx-auto px-4 py-12 relative z-20 text-white text-center">
