@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ArrowRight, Heart, Stethoscope, Clipboard } from "lucide-react";
+import { CheckCircle2, ArrowRight, Stethoscope, Clipboard, Activity, HeartPulse } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 
