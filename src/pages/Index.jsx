@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Stethoscope, Clipboard, Activity, HeartPulse, Users } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 
@@ -9,22 +9,27 @@ const Index = () => {
     { 
       title: "Consultoria em Saúde Pública", 
       description: "Oferecemos soluções estratégicas para melhorar a eficiência e qualidade dos serviços de saúde pública.",
+      icon: Users 
     },
     { 
       title: "Gestão de Saúde Materna", 
       description: "Desenvolvemos programas especializados para aprimorar o cuidado materno e infantil.",
+      icon: HeartPulse 
     },
     { 
       title: "Otimização de Serviços Pediátricos", 
       description: "Implementamos práticas inovadoras para elevar o padrão de atendimento pediátrico.",
+      icon: Activity 
     },
     { 
       title: "Aprimoramento de Cuidados Geriátricos", 
       description: "Criamos estratégias para melhorar a qualidade de vida e o atendimento à população idosa.",
+      icon: Stethoscope 
     },
     { 
       title: "Gestão de Projetos em Saúde", 
       description: "Planejamos e executamos projetos inovadores para transformar a prestação de serviços de saúde.",
+      icon: Clipboard 
     }
   ];
 
@@ -33,20 +38,15 @@ const Index = () => {
       <Header />
 
       <main className="container mx-auto px-4 py-12">
-        <section className="flex flex-col md:flex-row items-center justify-between mb-20">
-          <div className="md:w-1/2 text-left mb-8 md:mb-0">
-            <h1 className="text-5xl font-bold text-gray-800 mb-6">Transforme sua Gestão em Saúde com a Kure Saúde</h1>
-            <p className="text-xl text-gray-600 mb-10">Soluções personalizadas e inovadoras para otimizar processos, reduzir custos e melhorar a qualidade do atendimento em sua instituição de saúde.</p>
-            <div className="flex space-x-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
-                Agende uma Consulta
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8">Saiba Mais</Button>
-            </div>
-          </div>
-          <div className="md:w-1/2">
-            <img src="/img/photo-02.jpg" alt="Kure Saúde em ação" className="rounded-lg shadow-xl mx-auto object-cover" style={{width: '100%', maxWidth: '500px', height: '400px'}} />
+        <section className="text-center mb-20">
+          <h1 className="text-5xl font-bold text-gray-800 mb-6">Transforme sua Gestão em Saúde com a Kure Saúde</h1>
+          <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">Soluções personalizadas e inovadoras para otimizar processos, reduzir custos e melhorar a qualidade do atendimento em sua instituição de saúde.</p>
+          <div className="flex justify-center space-x-4">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
+              Agende uma Consulta
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+            <Button size="lg" variant="outline" className="text-lg px-8">Saiba Mais</Button>
           </div>
         </section>
 
