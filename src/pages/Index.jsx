@@ -8,12 +8,14 @@ const Index = () => {
     e.target.src = 'https://via.placeholder.com/150'; // Fallback image
   };
 
+  const logoUrl = "https://raw.githubusercontent.com/gabisantosi/kure/master/img/logo-kure-azul.png";
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <header className="bg-white shadow-md sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <img 
-            src="https://raw.githubusercontent.com/gabisantosi/kure/master/img/logo.png" 
+            src={logoUrl}
             alt="Kure Consultoria Logo" 
             className="h-12"
             onError={handleImageError}
@@ -44,9 +46,9 @@ const Index = () => {
           <h3 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços Especializados</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional.", icon: "https://raw.githubusercontent.com/gabisantosi/kure/master/img/gestao.png" },
-              { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade.", icon: "https://raw.githubusercontent.com/gabisantosi/kure/master/img/acreditacao.png" },
-              { title: "Consultoria Financeira", description: "Estratégias para melhorar o desempenho financeiro.", icon: "https://raw.githubusercontent.com/gabisantosi/kure/master/img/financeiro.png" }
+              { title: "Gestão Hospitalar", description: "Otimize processos e melhore a eficiência operacional.", icon: logoUrl },
+              { title: "Acreditação", description: "Prepare sua instituição para certificações de qualidade.", icon: logoUrl },
+              { title: "Consultoria Financeira", description: "Estratégias para melhorar o desempenho financeiro.", icon: logoUrl }
             ].map((service, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
