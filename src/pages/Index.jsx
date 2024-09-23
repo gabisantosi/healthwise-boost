@@ -38,27 +38,20 @@ const Index = () => {
       <Header />
 
       <main className="container mx-auto px-4 py-12">
-        <section className="text-center mb-20">
-          <h1 className="text-5xl font-bold text-gray-800 mb-6">Transforme sua Gestão em Saúde com a Kure Saúde</h1>
-          <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">Soluções personalizadas e inovadoras para otimizar processos, reduzir custos e melhorar a qualidade do atendimento em sua instituição de saúde.</p>
-          <div className="flex justify-center space-x-4">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
-              Agende uma Consulta
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8">Saiba Mais</Button>
+        <section className="text-center mb-20 flex flex-col md:flex-row items-center justify-between">
+          <div className="md:w-1/2 md:pr-8">
+            <h1 className="text-5xl font-bold text-gray-800 mb-6">Transforme sua Gestão em Saúde com a Kure Saúde</h1>
+            <p className="text-xl text-gray-600 mb-10">Soluções personalizadas e inovadoras para otimizar processos, reduzir custos e melhorar a qualidade do atendimento em sua instituição de saúde.</p>
+            <div className="flex justify-center space-x-4">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8">
+                Agende uma Consulta
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+              <Button size="lg" variant="outline" className="text-lg px-8">Saiba Mais</Button>
+            </div>
           </div>
-        </section>
-
-        <section className="mb-20">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossa Missão na Kure Saúde</h2>
-          <div className="text-lg text-gray-700 space-y-6 max-w-3xl mx-auto">
-            <p>
-              Na <strong>Kure Saúde</strong>, nossa missão é transformar e aprimorar os serviços de saúde no Brasil 
-              através de consultoria especializada e gestão eficiente. Nosso compromisso é fazer a diferença real 
-              na saúde e bem-estar das comunidades em todo o Brasil, promovendo um sistema de saúde mais eficiente, 
-              acessível e centrado no paciente.
-            </p>
+          <div className="md:w-1/2 mt-8 md:mt-0">
+            <img src="/img/photo-02.jpg" alt="Profissionais de saúde" className="rounded-lg shadow-lg w-full h-auto" />
           </div>
         </section>
 
