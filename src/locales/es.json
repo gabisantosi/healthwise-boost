@@ -14,7 +14,7 @@
   },
   "about": {
     "title": "Sobre Nosotros",
-    "description": "Kure Salud Digital es una consultoría especializada en tecnología e innovación para el sector sanitario. Nuestro equipo de expertos combina un profundo conocimiento del sector sanitario con experiencia en tecnologías de vanguardia.",
+    "description": "Kure Saúde es una consultoría especializada en tecnología e innovación para el sector sanitario. Nuestro equipo de expertos combina un profundo conocimiento del sector sanitario con experiencia en tecnologías de vanguardia.",
     "mission": "Nuestra misión es transformar el sector sanitario a través de la innovación tecnológica, mejorando la eficiencia operativa y la calidad de la atención al paciente.",
     "vision": "Aspiramos a ser líderes globales en consultoría de tecnología sanitaria, impulsando la transformación digital y promoviendo una atención sanitaria más accesible, eficaz y centrada en el paciente."
   },
@@ -51,6 +51,6 @@
     "requestSent": "¡Tu solicitud de propuesta ha sido enviada con éxito! Nos pondremos en contacto contigo pronto."
   },
   "footer": {
-    "copyright": "© 2024 Kure Consultoría de Salud. Todos los derechos reservados."
+    "copyright": "© 2024 Kure Saúde. Todos los derechos reservados."
   }
 }

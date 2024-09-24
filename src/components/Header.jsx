@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <Stethoscope className="h-8 w-8 text-primary mr-2" />
-          <span className="text-xl font-bold text-primary">Kure Saúde Digital</span>
+          <span className="text-xl font-bold text-primary">Kure Saúde</span>
         </div>
         <nav className="flex items-center">
           <ul className="flex space-x-6 mr-6">

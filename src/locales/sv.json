@@ -14,7 +14,7 @@
   },
   "about": {
     "title": "Om oss",
-    "description": "Kure Digital Hälsa är en specialiserad konsultfirma inom teknik och innovation för hälso- och sjukvårdssektorn. Vårt team av experter kombinerar djup kunskap om hälso- och sjukvårdsbranschen med expertis inom banbrytande teknologier.",
+    "description": "Kure Saúde är en specialiserad konsultfirma inom teknik och innovation för hälso- och sjukvårdssektorn. Vårt team av experter kombinerar djup kunskap om hälso- och sjukvårdsbranschen med expertis inom banbrytande teknologier.",
     "mission": "Vår mission är att transformera hälso- och sjukvårdssektorn genom teknologisk innovation, förbättra operativ effektivitet och kvaliteten på patientvården.",
     "vision": "Vi strävar efter att vara globala ledare inom hälsoteknisk konsultation, driva digital transformation och främja mer tillgänglig, effektiv och patientcentrerad hälso- och sjukvård."
   },
@@ -51,6 +51,6 @@
     "requestSent": "Din förfrågan om förslag har skickats framgångsrikt! Vi kommer att kontakta dig snart."
   },
   "footer": {
-    "copyright": "© 2024 Kure Hälsokonsult. Alla rättigheter förbehållna."
+    "copyright": "© 2024 Kure Saúde. Alla rättigheter förbehållna."
   }
 }
