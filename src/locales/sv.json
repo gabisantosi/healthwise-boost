@@ -1,0 +1,49 @@
+{
+  "header": {
+    "home": "Hem",
+    "digitalHealth": "Digital hälsa",
+    "technology": "Teknik",
+    "programs": "Program",
+    "agileMethods": "Agila metoder"
+  },
+  "hero": {
+    "title": "Specialiserad konsulttjänst inom hälsoteknik",
+    "subtitle": "Vi erbjuder skräddarsydda konsultlösningar inom teknik och innovation för hälso- och sjukvårdssektorn, optimerar processer, förbättrar servicekvaliteten och driver digital transformation.",
+    "scheduleButton": "Boka en konsultation",
+    "servicesButton": "Våra tjänster"
+  },
+  "services": {
+    "title": "Våra konsulttjänster",
+    "digitalHealth": {
+      "title": "Digital hälsa",
+      "description": "Implementering av digitala lösningar för att förbättra effektiviteten och kvaliteten på hälso- och sjukvårdstjänster."
+    },
+    "healthTech": {
+      "title": "Hälsoteknik",
+      "description": "Rådgivning om antagande och integration av innovativ teknik inom hälso- och sjukvårdssektorn."
+    },
+    "healthPrograms": {
+      "title": "Utveckling av hälsoprogram",
+      "description": "Skapande och implementering av skräddarsydda program för att möta de specifika behoven hos hälso- och sjukvårdsinstitutioner."
+    },
+    "agileMethods": {
+      "title": "Agila metoder inom hälso- och sjukvård",
+      "description": "Tillämpning av agila principer för att förbättra projektledning och leverans inom hälso- och sjukvårdssektorn."
+    },
+    "googleWorkspace": {
+      "title": "Google Workspace-integration",
+      "description": "Optimering av hälso- och sjukvårdsprocesser med hjälp av Google Workspace-verktyg för samarbete och produktivitet."
+    }
+  },
+  "partners": {
+    "title": "Våra partners"
+  },
+  "cta": {
+    "title": "Redo att transformera din hantering av hälsoteknik?",
+    "description": "Kontakta oss idag för en gratis bedömning och upptäck hur vår konsulttjänst kan hjälpa din institution att nå nya höjder av excellens inom hälsoteknik och innovation.",
+    "button": "Begär ett förslag"
+  },
+  "footer": {
+    "copyright": "© 2024 Kure Hälsokonsult. Alla rättigheter förbehållna."
+  }
+}

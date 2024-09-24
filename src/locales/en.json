@@ -1,0 +1,49 @@
+{
+  "header": {
+    "home": "Home",
+    "digitalHealth": "Digital Health",
+    "technology": "Technology",
+    "programs": "Programs",
+    "agileMethods": "Agile Methods"
+  },
+  "hero": {
+    "title": "Specialized Healthcare Technology Consulting",
+    "subtitle": "We offer customized consulting solutions in technology and innovation for the healthcare sector, optimizing processes, improving service quality, and driving digital transformation.",
+    "scheduleButton": "Schedule a Consultation",
+    "servicesButton": "Our Services"
+  },
+  "services": {
+    "title": "Our Consulting Services",
+    "digitalHealth": {
+      "title": "Digital Health",
+      "description": "Implementation of digital solutions to improve the efficiency and quality of healthcare services."
+    },
+    "healthTech": {
+      "title": "Healthcare Technology",
+      "description": "Consulting on adoption and integration of innovative technologies in the healthcare sector."
+    },
+    "healthPrograms": {
+      "title": "Health Program Development",
+      "description": "Creation and implementation of customized programs to meet the specific needs of healthcare institutions."
+    },
+    "agileMethods": {
+      "title": "Agile Methods in Healthcare",
+      "description": "Application of agile principles to improve project management and delivery in the healthcare sector."
+    },
+    "googleWorkspace": {
+      "title": "Google Workspace Integration",
+      "description": "Optimization of healthcare processes using Google Workspace tools for collaboration and productivity."
+    }
+  },
+  "partners": {
+    "title": "Our Partners"
+  },
+  "cta": {
+    "title": "Ready to Transform Your Healthcare Technology Management?",
+    "description": "Contact us today for a free assessment and discover how our consulting can help your institution reach new heights of excellence in healthcare technology and innovation.",
+    "button": "Request a Proposal"
+  },
+  "footer": {
+    "copyright": "© 2024 Kure Health Consulting. All rights reserved."
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Laptop, Stethoscope, GitBranch, BarChart, Zap, Mail } from 'lucide-react';
 
@@ -12,6 +13,7 @@ const iconMap = {
 };
 
 const ServiceCard = ({ title, description }) => {
+  const { t } = useTranslation();
   const Icon = iconMap[title] || Laptop;
 
   return (

@@ -1,10 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { CalendarIcon } from "lucide-react";
 
 const ScheduleModal = () => {
+  const { t } = useTranslation();
   const [date, setDate] = React.useState(new Date());
 
   const handleSchedule = () => {
@@ -18,12 +20,12 @@ const ScheduleModal = () => {
     <Dialog>
       <DialogTrigger asChild>
         <Button variant="outline" className="text-lg px-8 text-white border-white hover:bg-white/20">
-          Agende uma Consultoria
+          {t('hero.scheduleButton')}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Agende sua Consultoria</DialogTitle>
+          <DialogTitle>{t('hero.scheduleButton')}</DialogTitle>
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <Calendar
@@ -33,7 +35,7 @@ const ScheduleModal = () => {
             className="rounded-md border"
           />
           <Button onClick={handleSchedule} className="w-full">
-            <CalendarIcon className="mr-2 h-4 w-4" /> Agendar no Google Calendário
+            <CalendarIcon className="mr-2 h-4 w-4" /> {t('hero.scheduleButton')}
           </Button>
         </div>
       </DialogContent>

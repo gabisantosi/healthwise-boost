@@ -1,0 +1,49 @@
+{
+  "header": {
+    "home": "Início",
+    "digitalHealth": "Saúde Digital",
+    "technology": "Tecnologia",
+    "programs": "Programas",
+    "agileMethods": "Metodologias Ágeis"
+  },
+  "hero": {
+    "title": "Consultoria Especializada em Tecnologia em Saúde",
+    "subtitle": "Oferecemos soluções de consultoria personalizadas em tecnologia e inovação para o setor de saúde, otimizando processos, melhorando a qualidade dos serviços e impulsionando a transformação digital.",
+    "scheduleButton": "Agende uma Consultoria",
+    "servicesButton": "Nossos Serviços"
+  },
+  "services": {
+    "title": "Nossos Serviços de Consultoria",
+    "digitalHealth": {
+      "title": "Saúde Digital",
+      "description": "Implementação de soluções digitais para melhorar a eficiência e qualidade dos serviços de saúde."
+    },
+    "healthTech": {
+      "title": "Tecnologia em Saúde",
+      "description": "Consultoria em adoção e integração de tecnologias inovadoras no setor de saúde."
+    },
+    "healthPrograms": {
+      "title": "Desenvolvimento de Programas de Saúde",
+      "description": "Criação e implementação de programas personalizados para atender às necessidades específicas de instituições de saúde."
+    },
+    "agileMethods": {
+      "title": "Metodologias Ágeis em Saúde",
+      "description": "Aplicação de princípios ágeis para melhorar a gestão e entrega de projetos no setor de saúde."
+    },
+    "googleWorkspace": {
+      "title": "Integração com Google Workspace",
+      "description": "Otimização dos processos de saúde utilizando as ferramentas do Google Workspace para colaboração e produtividade."
+    }
+  },
+  "partners": {
+    "title": "Nossos Parceiros"
+  },
+  "cta": {
+    "title": "Pronto para Transformar sua Gestão em Tecnologia em Saúde?",
+    "description": "Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em tecnologia e inovação em saúde.",
+    "button": "Solicite uma Proposta"
+  },
+  "footer": {
+    "copyright": "© 2024 Kure Saúde Consultoria. Todos os direitos reservados."
+  }
+}
