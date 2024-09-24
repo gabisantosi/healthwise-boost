@@ -26,7 +26,7 @@ const Index = () => {
     },
     { 
       title: "Integração com Google Workspace", 
-      description: "Otimização dos processos de saúde utilizando as ferramentas do Google Workspace (antigo G Suite) para colaboração e produtividade."
+      description: "Otimização dos processos de saúde utilizando as ferramentas do Google Workspace para colaboração e produtividade."
     }
   ];
 
@@ -43,14 +43,16 @@ const Index = () => {
       <Header />
 
       <main>
-        <section className="relative h-screen flex items-center justify-center">
+        <section className="relative h-screen flex items-center justify-center" aria-labelledby="hero-title">
           <div 
             className="absolute inset-0 bg-cover bg-center z-0" 
             style={{backgroundImage: `url('/photo-02.jpg')`}}
+            role="img"
+            aria-label="Imagem de fundo representando tecnologia em saúde"
           ></div>
           <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
           <div className="container mx-auto px-4 py-12 relative z-20 text-white text-center">
-            <h1 className="text-5xl font-bold mb-6">Consultoria Especializada em Tecnologia em Saúde</h1>
+            <h1 id="hero-title" className="text-5xl font-bold mb-6">Consultoria Especializada em Tecnologia em Saúde</h1>
             <p className="text-xl mb-10 max-w-3xl mx-auto">Oferecemos soluções de consultoria personalizadas em tecnologia e inovação para o setor de saúde, otimizando processos, melhorando a qualidade dos serviços e impulsionando a transformação digital.</p>
             <div className="flex justify-center space-x-4">
               <ScheduleModal />
@@ -59,9 +61,9 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="bg-white py-20">
+        <section className="bg-white py-20" aria-labelledby="services-title">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços de Consultoria</h2>
+            <h2 id="services-title" className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Serviços de Consultoria</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (
                 <ServiceCard key={index} {...service} />
@@ -70,9 +72,9 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="bg-gray-100 py-20">
+        <section className="bg-gray-100 py-20" aria-labelledby="partners-title">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Parceiros</h2>
+            <h2 id="partners-title" className="text-3xl font-bold text-center text-gray-800 mb-10">Nossos Parceiros</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
               {partners.map((partner, index) => (
                 <PartnerLogo key={index} {...partner} />
@@ -81,9 +83,9 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="bg-primary text-white py-20">
+        <section className="bg-primary text-white py-20" aria-labelledby="cta-title">
           <div className="container mx-auto px-4 text-center">
-            <h3 className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Tecnologia em Saúde?</h3>
+            <h3 id="cta-title" className="text-3xl font-bold mb-6">Pronto para Transformar sua Gestão em Tecnologia em Saúde?</h3>
             <p className="text-xl mb-8 max-w-2xl mx-auto">Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em tecnologia e inovação em saúde.</p>
             <Button size="lg" variant="secondary" className="text-primary bg-white hover:bg-gray-100 text-lg px-8">
               Solicite uma Proposta
