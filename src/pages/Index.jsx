@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 import PartnerLogo from '../components/PartnerLogo';
+import ScheduleModal from '../components/ScheduleModal';
 
 const Index = () => {
   const services = [
@@ -30,11 +31,11 @@ const Index = () => {
   ];
 
   const partners = [
-    { name: "Hospital Sírio-Libanês", logoUrl: "/img/placeholder-image.jpg" },
-    { name: "Hospital Israelita Albert Einstein", logoUrl: "/img/placeholder-image.jpg" },
-    { name: "Hospital Alemão Oswaldo Cruz", logoUrl: "/img/placeholder-image.jpg" },
-    { name: "Hospital Moinhos de Vento", logoUrl: "/img/placeholder-image.jpg" },
-    { name: "Hospital Samaritano", logoUrl: "/img/placeholder-image.jpg" }
+    { name: "Hospital Sírio-Libanês", logoUrl: "/placeholder-image.jpg" },
+    { name: "Hospital Israelita Albert Einstein", logoUrl: "/placeholder-image.jpg" },
+    { name: "Hospital Alemão Oswaldo Cruz", logoUrl: "/placeholder-image.jpg" },
+    { name: "Hospital Moinhos de Vento", logoUrl: "/placeholder-image.jpg" },
+    { name: "Hospital Samaritano", logoUrl: "/placeholder-image.jpg" }
   ];
 
   return (
@@ -45,17 +46,14 @@ const Index = () => {
         <section className="relative h-screen flex items-center justify-center">
           <div 
             className="absolute inset-0 bg-cover bg-center z-0" 
-            style={{backgroundImage: `url('/img/photo-02.jpg')`}}
+            style={{backgroundImage: `url('/photo-02.jpg')`}}
           ></div>
           <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
           <div className="container mx-auto px-4 py-12 relative z-20 text-white text-center">
             <h1 className="text-5xl font-bold mb-6">Consultoria Especializada em Tecnologia em Saúde</h1>
             <p className="text-xl mb-10 max-w-3xl mx-auto">Oferecemos soluções de consultoria personalizadas em tecnologia e inovação para o setor de saúde, otimizando processos, melhorando a qualidade dos serviços e impulsionando a transformação digital.</p>
             <div className="flex justify-center space-x-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
-                Agende uma Consultoria
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              <ScheduleModal />
               <Button size="lg" variant="outline" className="text-lg px-8 text-white border-white hover:bg-white/20">Nossos Serviços</Button>
             </div>
           </div>
