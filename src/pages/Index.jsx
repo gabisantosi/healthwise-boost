@@ -41,6 +41,13 @@ const Index = () => {
     { name: "Hospital Samaritano", logoUrl: "/placeholder-image.jpg" }
   ];
 
+  const handleRequestProposal = () => {
+    // Aqui você pode adicionar a lógica para lidar com a solicitação de proposta
+    // Por exemplo, abrir um modal de contato ou redirecionar para uma página de formulário
+    console.log("Solicitação de proposta iniciada");
+    alert(t('cta.requestSent'));
+  };
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -92,7 +99,12 @@ const Index = () => {
           <div className="container mx-auto px-4 text-center">
             <h3 id="cta-title" className="text-3xl font-bold mb-6">{t('cta.title')}</h3>
             <p className="text-xl mb-8 max-w-2xl mx-auto">{t('cta.description')}</p>
-            <Button size="lg" variant="secondary" className="text-primary bg-white hover:bg-gray-100 text-lg px-8">
+            <Button 
+              size="lg" 
+              variant="secondary" 
+              className="text-primary bg-white hover:bg-gray-100 text-lg px-8"
+              onClick={handleRequestProposal}
+            >
               {t('cta.button')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>

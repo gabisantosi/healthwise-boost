@@ -41,7 +41,8 @@
   "cta": {
     "title": "Pronto para Transformar sua Gestão em Tecnologia em Saúde?",
     "description": "Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em tecnologia e inovação em saúde.",
-    "button": "Solicite uma Proposta"
+    "button": "Solicite uma Proposta",
+    "requestSent": "Sua solicitação de proposta foi enviada com sucesso! Entraremos em contato em breve."
   },
   "footer": {
     "copyright": "© 2024 Kure Saúde Consultoria. Todos os direitos reservados."
