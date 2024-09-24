@@ -34,11 +34,11 @@ const Index = () => {
   ];
 
   const partners = [
-    { name: "Hospital Sírio-Libanês", logoUrl: "/placeholder-image.jpg" },
-    { name: "Hospital Israelita Albert Einstein", logoUrl: "/placeholder-image.jpg" },
-    { name: "Hospital Alemão Oswaldo Cruz", logoUrl: "/placeholder-image.jpg" },
-    { name: "Hospital Moinhos de Vento", logoUrl: "/placeholder-image.jpg" },
-    { name: "Hospital Samaritano", logoUrl: "/placeholder-image.jpg" }
+    { name: "Hospital Sírio-Libanês" },
+    { name: "Hospital Israelita Albert Einstein" },
+    { name: "Hospital Alemão Oswaldo Cruz" },
+    { name: "Hospital Moinhos de Vento" },
+    { name: "Hospital Samaritano" }
   ];
 
   const handleRequestProposal = () => {
@@ -129,7 +129,7 @@ const Index = () => {
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
-            aria-label="LinkedIn da Kure Saúde"
+            aria-label={t('footer.linkedinAria')}
           >
             <Linkedin className="h-6 w-6" />
           </a>
