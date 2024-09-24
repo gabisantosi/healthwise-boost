@@ -42,8 +42,6 @@ const Index = () => {
   ];
 
   const handleRequestProposal = () => {
-    // Aqui você pode adicionar a lógica para lidar com a solicitação de proposta
-    // Por exemplo, abrir um modal de contato ou redirecionar para uma página de formulário
     console.log("Solicitação de proposta iniciada");
     alert(t('cta.requestSent'));
   };
@@ -73,7 +71,18 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="bg-white py-20" aria-labelledby="services-title">
+        <section className="bg-white py-20" aria-labelledby="about-title">
+          <div className="container mx-auto px-4">
+            <h2 id="about-title" className="text-3xl font-bold text-center text-gray-800 mb-10">{t('about.title')}</h2>
+            <div className="max-w-3xl mx-auto text-center">
+              <p className="text-lg mb-6">{t('about.description')}</p>
+              <p className="text-lg mb-6">{t('about.mission')}</p>
+              <p className="text-lg">{t('about.vision')}</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-gray-100 py-20" aria-labelledby="services-title">
           <div className="container mx-auto px-4">
             <h2 id="services-title" className="text-3xl font-bold text-center text-gray-800 mb-10">{t('services.title')}</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -84,7 +93,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="bg-gray-100 py-20" aria-labelledby="partners-title">
+        <section className="bg-white py-20" aria-labelledby="partners-title">
           <div className="container mx-auto px-4">
             <h2 id="partners-title" className="text-3xl font-bold text-center text-gray-800 mb-10">{t('partners.title')}</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">

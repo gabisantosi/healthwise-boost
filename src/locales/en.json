@@ -12,6 +12,12 @@
     "scheduleButton": "Schedule a Consultation",
     "servicesButton": "Our Services"
   },
+  "about": {
+    "title": "About Us",
+    "description": "Kure Digital Health is a specialized consultancy in technology and innovation for the healthcare sector. Our team of experts combines deep knowledge of the healthcare industry with expertise in cutting-edge technologies.",
+    "mission": "Our mission is to transform the healthcare sector through technological innovation, improving operational efficiency and the quality of patient care.",
+    "vision": "We aim to be global leaders in healthcare technology consulting, driving digital transformation and promoting more accessible, effective, and patient-centered healthcare."
+  },
   "services": {
     "title": "Our Consulting Services",
     "digitalHealth": {
@@ -41,7 +47,8 @@
   "cta": {
     "title": "Ready to Transform Your Healthcare Technology Management?",
     "description": "Contact us today for a free assessment and discover how our consulting can help your institution reach new heights of excellence in healthcare technology and innovation.",
-    "button": "Request a Proposal"
+    "button": "Request a Proposal",
+    "requestSent": "Your proposal request has been successfully sent! We will contact you soon."
   },
   "footer": {
     "copyright": "© 2024 Kure Health Consulting. All rights reserved."

@@ -12,6 +12,12 @@
     "scheduleButton": "Agende uma Consultoria",
     "servicesButton": "Nossos Serviços"
   },
+  "about": {
+    "title": "Sobre Nós",
+    "description": "A Kure Saúde Digital é uma consultoria especializada em tecnologia e inovação para o setor de saúde. Nossa equipe de especialistas combina conhecimento profundo do setor de saúde com expertise em tecnologias de ponta.",
+    "mission": "Nossa missão é transformar o setor de saúde através da inovação tecnológica, melhorando a eficiência operacional e a qualidade do atendimento ao paciente.",
+    "vision": "Visamos ser líderes globais em consultoria de tecnologia em saúde, impulsionando a transformação digital e promovendo cuidados de saúde mais acessíveis, eficazes e centrados no paciente."
+  },
   "services": {
     "title": "Nossos Serviços de Consultoria",
     "digitalHealth": {

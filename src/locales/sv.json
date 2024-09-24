@@ -12,6 +12,12 @@
     "scheduleButton": "Boka en konsultation",
     "servicesButton": "Våra tjänster"
   },
+  "about": {
+    "title": "Om oss",
+    "description": "Kure Digital Hälsa är en specialiserad konsultfirma inom teknik och innovation för hälso- och sjukvårdssektorn. Vårt team av experter kombinerar djup kunskap om hälso- och sjukvårdsbranschen med expertis inom banbrytande teknologier.",
+    "mission": "Vår mission är att transformera hälso- och sjukvårdssektorn genom teknologisk innovation, förbättra operativ effektivitet och kvaliteten på patientvården.",
+    "vision": "Vi strävar efter att vara globala ledare inom hälsoteknisk konsultation, driva digital transformation och främja mer tillgänglig, effektiv och patientcentrerad hälso- och sjukvård."
+  },
   "services": {
     "title": "Våra konsulttjänster",
     "digitalHealth": {
@@ -41,7 +47,8 @@
   "cta": {
     "title": "Redo att transformera din hantering av hälsoteknik?",
     "description": "Kontakta oss idag för en gratis bedömning och upptäck hur vår konsulttjänst kan hjälpa din institution att nå nya höjder av excellens inom hälsoteknik och innovation.",
-    "button": "Begär ett förslag"
+    "button": "Begär ett förslag",
+    "requestSent": "Din förfrågan om förslag har skickats framgångsrikt! Vi kommer att kontakta dig snart."
   },
   "footer": {
     "copyright": "© 2024 Kure Hälsokonsult. Alla rättigheter förbehållna."
