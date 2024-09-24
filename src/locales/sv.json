@@ -51,6 +51,7 @@
     "requestSent": "Din förfrågan om förslag har skickats framgångsrikt! Vi kommer att kontakta dig snart."
   },
   "footer": {
-    "copyright": "© 2024 Kure Saúde. Alla rättigheter förbehållna."
+    "copyright": "© 2024 Kure Saúde. Alla rättigheter förbehållna.",
+    "linkedinAria": "Kure Saúde LinkedIn"
   }
 }

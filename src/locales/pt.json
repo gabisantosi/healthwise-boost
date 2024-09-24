@@ -51,6 +51,7 @@
     "requestSent": "Sua solicitação de proposta foi enviada com sucesso! Entraremos em contato em breve."
   },
   "footer": {
-    "copyright": "© 2024 Kure Saúde. Todos os direitos reservados."
+    "copyright": "© 2024 Kure Saúde. Todos os direitos reservados.",
+    "linkedinAria": "LinkedIn da Kure Saúde"
   }
 }

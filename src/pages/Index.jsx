@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Linkedin } from "lucide-react";
 import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 import PartnerLogo from '../components/PartnerLogo';
@@ -122,8 +122,17 @@ const Index = () => {
       </main>
 
       <footer className="bg-gray-800 text-white py-12">
-        <div className="container mx-auto px-4">
-          <p className="text-center">{t('footer.copyright')}</p>
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          <p>{t('footer.copyright')}</p>
+          <a 
+            href="https://www.linkedin.com/company/kure-saude/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+            aria-label="LinkedIn da Kure Saúde"
+          >
+            <Linkedin className="h-6 w-6" />
+          </a>
         </div>
       </footer>
     </div>
