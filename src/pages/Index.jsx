@@ -11,7 +11,7 @@ const Index = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gray-50">
       <Header />
       <main>
         <Hero />
