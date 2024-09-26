@@ -59,7 +59,14 @@
     "button": "Solicite uma Proposta"
   },
   "footer": {
-    "copyright": "© 2024 Kure Saúde. Todos os direitos reservados.",
-    "linkedinAria": "LinkedIn da Kure Saúde"
+    "companyName": "Kure Saúde",
+    "description": "Consultoria especializada em tecnologia e inovação para o setor de saúde.",
+    "contact": "Contato",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "followUs": "Siga-nos",
+    "linkedinAria": "LinkedIn da Kure Saúde",
+    "twitterAria": "Twitter da Kure Saúde",
+    "copyright": "© 2024 Kure Saúde. Todos os direitos reservados."
   }
 }
