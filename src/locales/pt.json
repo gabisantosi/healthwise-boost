@@ -7,16 +7,10 @@
     "agileMethods": "Metodologias Ágeis"
   },
   "hero": {
-    "title": "Consultoria Especializada em Tecnologia em Saúde",
-    "subtitle": "Oferecemos soluções de consultoria personalizadas em tecnologia e inovação para o setor de saúde, otimizando processos, melhorando a qualidade dos serviços e impulsionando a transformação digital.",
+    "title": "Transformando a Saúde com Tecnologia e Inovação",
+    "subtitle": "A Kure Saúde oferece soluções de consultoria personalizadas para otimizar processos, melhorar a qualidade dos serviços e impulsionar a transformação digital no setor de saúde.",
     "scheduleButton": "Agende uma Consultoria",
     "servicesButton": "Nossos Serviços"
-  },
-  "about": {
-    "title": "Sobre Nós",
-    "description": "A Kure Saúde é uma consultoria especializada em tecnologia e inovação para o setor de saúde. Nossa equipe de especialistas combina conhecimento profundo do setor de saúde com expertise em tecnologias de ponta.",
-    "mission": "Nossa missão é transformar o setor de saúde através da inovação tecnológica, melhorando a eficiência operacional e a qualidade do atendimento ao paciente.",
-    "vision": "Visamos ser líderes globais em consultoria de tecnologia em saúde, impulsionando a transformação digital e promovendo cuidados de saúde mais acessíveis, eficazes e centrados no paciente."
   },
   "services": {
     "title": "Nossos Serviços de Consultoria",
@@ -36,19 +30,33 @@
       "title": "Metodologias Ágeis em Saúde",
       "description": "Aplicação de princípios ágeis para melhorar a gestão e entrega de projetos no setor de saúde."
     },
-    "googleWorkspace": {
-      "title": "Integração com Google Workspace",
-      "description": "Otimização dos processos de saúde utilizando as ferramentas do Google Workspace para colaboração e produtividade."
+    "digitalTransformation": {
+      "title": "Transformação Digital em Saúde",
+      "description": "Estratégias e implementação de transformação digital para organizações de saúde."
     }
   },
-  "partners": {
-    "title": "Nossos Parceiros"
+  "caseStudies": {
+    "title": "Casos de Sucesso",
+    "case1": {
+      "title": "Hospital ABC",
+      "description": "Implementação de sistema de gestão integrado",
+      "result": "Redução de 30% nos custos operacionais"
+    },
+    "case2": {
+      "title": "Clínica XYZ",
+      "description": "Digitalização de prontuários e processos",
+      "result": "Aumento de 40% na eficiência do atendimento"
+    },
+    "case3": {
+      "title": "Rede de Laboratórios 123",
+      "description": "Implementação de IA para análise de exames",
+      "result": "Redução de 50% no tempo de entrega de resultados"
+    }
   },
   "cta": {
-    "title": "Pronto para Transformar sua Gestão em Tecnologia em Saúde?",
+    "title": "Pronto para Transformar sua Gestão em Saúde?",
     "description": "Entre em contato conosco hoje para uma avaliação gratuita e descubra como nossa consultoria pode ajudar sua instituição a alcançar novos patamares de excelência em tecnologia e inovação em saúde.",
-    "button": "Solicite uma Proposta",
-    "requestSent": "Sua solicitação de proposta foi enviada com sucesso! Entraremos em contato em breve."
+    "button": "Solicite uma Proposta"
   },
   "footer": {
     "copyright": "© 2024 Kure Saúde. Todos os direitos reservados.",
