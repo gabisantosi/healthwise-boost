@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ScheduleModal from './ScheduleModal';
 
