@@ -9,8 +9,8 @@ const ServiceCard = ({ icon: Icon, title, description, link }) => (
     <Link to={link} className="block h-full">
       <CardHeader>
         <Icon className="h-12 w-12 text-primary mx-auto mb-4" />
-        <CardTitle className="text-xl mb-2">{title}</CardTitle>
-        <CardDescription>{description}</CardDescription>
+        <CardTitle className="text-lg md:text-xl mb-2">{title}</CardTitle>
+        <CardDescription className="text-sm md:text-base">{description}</CardDescription>
       </CardHeader>
     </Link>
   </Card>
@@ -28,10 +28,10 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-100">
+    <section className="py-12 md:py-20 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">{t('services.title')}</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-8 md:mb-10">{t('services.title')}</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
