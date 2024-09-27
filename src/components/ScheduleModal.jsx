@@ -19,7 +19,11 @@ const ScheduleModal = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" className="text-lg px-8 text-white border-white hover:bg-white/20">
+        <Button 
+          size="lg"
+          variant="outline" 
+          className="text-lg px-8 bg-transparent text-white border-white hover:bg-white hover:text-primary transition-colors"
+        >
           {t('hero.scheduleButton')}
         </Button>
       </DialogTrigger>
