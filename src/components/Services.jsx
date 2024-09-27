@@ -2,14 +2,17 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Laptop, Stethoscope, GitBranch, BarChart, Zap } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
-const ServiceCard = ({ icon: Icon, title, description }) => (
+const ServiceCard = ({ icon: Icon, title, description, link }) => (
   <Card className="text-center hover:shadow-lg transition-shadow">
-    <CardHeader>
-      <Icon className="h-12 w-12 text-primary mx-auto mb-4" />
-      <CardTitle className="text-xl mb-2">{title}</CardTitle>
-      <CardDescription>{description}</CardDescription>
-    </CardHeader>
+    <Link to={link} className="block h-full">
+      <CardHeader>
+        <Icon className="h-12 w-12 text-primary mx-auto mb-4" />
+        <CardTitle className="text-xl mb-2">{title}</CardTitle>
+        <CardDescription>{description}</CardDescription>
+      </CardHeader>
+    </Link>
   </Card>
 );
 
@@ -17,11 +20,11 @@ const Services = () => {
   const { t } = useTranslation();
 
   const services = [
-    { icon: Laptop, title: t('services.digitalHealth.title'), description: t('services.digitalHealth.description') },
-    { icon: BarChart, title: t('services.healthTech.title'), description: t('services.healthTech.description') },
-    { icon: Stethoscope, title: t('services.healthPrograms.title'), description: t('services.healthPrograms.description') },
-    { icon: GitBranch, title: t('services.agileMethods.title'), description: t('services.agileMethods.description') },
-    { icon: Zap, title: t('services.digitalTransformation.title'), description: t('services.digitalTransformation.description') },
+    { icon: Laptop, title: t('services.digitalHealth.title'), description: t('services.digitalHealth.description'), link: '/services/digital-health' },
+    { icon: BarChart, title: t('services.healthTech.title'), description: t('services.healthTech.description'), link: '/services/health-tech' },
+    { icon: Stethoscope, title: t('services.healthPrograms.title'), description: t('services.healthPrograms.description'), link: '/services/health-programs' },
+    { icon: GitBranch, title: t('services.agileMethods.title'), description: t('services.agileMethods.description'), link: '/services/agile-methods' },
+    { icon: Zap, title: t('services.digitalTransformation.title'), description: t('services.digitalTransformation.description'), link: '/services/digital-transformation' },
   ];
 
   return (

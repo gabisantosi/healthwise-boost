@@ -16,7 +16,13 @@
     "title": "Nossos Serviços de Consultoria",
     "digitalHealth": {
       "title": "Saúde Digital",
-      "description": "Implementação de soluções digitais para melhorar a eficiência e qualidade dos serviços de saúde."
+      "description": "Implementação de soluções digitais para melhorar a eficiência e qualidade dos serviços de saúde.",
+      "benefits": "Benefícios da Saúde Digital",
+      "benefit1": "Melhoria na eficiência operacional",
+      "benefit2": "Aumento na qualidade do atendimento ao paciente",
+      "benefit3": "Redução de custos a longo prazo",
+      "howWeHelp": "Como podemos ajudar",
+      "helpDescription": "Nossa equipe de especialistas trabalha em estreita colaboração com sua organização para implementar soluções de saúde digital personalizadas, garantindo uma transição suave e eficaz para um ambiente de saúde mais tecnológico e eficiente."
     },
     "healthTech": {
       "title": "Tecnologia em Saúde",
