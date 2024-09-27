@@ -14,7 +14,11 @@ const Hero = () => {
         <p className="text-xl mb-10 max-w-3xl mx-auto">{t('hero.subtitle')}</p>
         <div className="flex justify-center space-x-4">
           <ScheduleModal />
-          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/20">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="text-lg px-8 text-primary bg-white border-white hover:bg-primary hover:text-white transition-colors"
+          >
             {t('hero.servicesButton')}
           </Button>
         </div>
