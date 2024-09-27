@@ -17,8 +17,8 @@ const Hero = () => {
           <ScheduleModal />
           <Button 
             size="lg" 
-            variant="secondary"
-            className="text-lg px-8 bg-white text-primary hover:bg-gray-100 transition-colors"
+            variant="outline"
+            className="text-lg px-8 bg-transparent text-white border-white hover:bg-white hover:text-primary transition-colors"
           >
             {t('hero.servicesButton')}
           </Button>
