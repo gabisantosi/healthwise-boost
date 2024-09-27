@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Briefcase, Laptop, Stethoscope, GitBranch, BarChart, Globe } from 'lucide-react';
+import { Briefcase, Laptop, Stethoscope, GitBranch, BarChart } from 'lucide-react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-10">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Stethoscope className="h-8 w-8 text-primary mr-2" />
+          <img src="https://i.ibb.co/FBXpxxw/logo-kure-azul.png" alt="Kure Saúde Logo" className="h-8 w-auto mr-2" />
           <span className="text-xl font-bold text-primary">Kure Saúde</span>
         </div>
         <nav className="flex items-center">
