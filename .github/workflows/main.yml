@@ -1,3 +1,13 @@
+SC
+View on GitHub
+G
+Raw
+Diff
+
+Let's update the `.github/workflows/main.yml` file:
+
+
+.github/workflows/main.yml
 name: Deploy to GitHub Pages
 
 on:
