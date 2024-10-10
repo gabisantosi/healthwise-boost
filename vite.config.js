@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/healthwise-boost', // Substitua 'kure-saude-digital' pelo nome do seu repositório
+  base: '/1934d0c7-b827-4348-822f-a6444d28c626/', // Substitua pelo nome do seu repositório
 })
